@@ -1,9 +1,9 @@
-// const server = require("./server.js");
+const server = require("./server.js");
 
-// const port = 5000;
+const port = 5000;
 
-// server.listen(port, () => {
-//   console.log(`\n* Server Running on http://localhost:${port} *\n`);
-// });
+server.listen(port, () => {
+  console.log(`\n* Server Running on http://localhost:${port} *\n`);
+});
 
-// // Why does this break the server?
+// Why does this break the server?
